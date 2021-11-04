@@ -1,12 +1,5 @@
 from scrape import scrape
-from httpx import AsyncClient
-from brotli import decompress
-import random, string
-import os
-import json
-import time
 import asyncio
-from tasksio import TaskPool
 
 
 def check_flags(flag_int):
